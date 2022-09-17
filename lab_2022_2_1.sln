@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_2022_2_1", "lab_2022_2_1\lab_2022_2_1.csproj", "{C9B34527-CD16-4A6E-B432-760A2E45649C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "MinMax\MinMax.csproj", "{C9B34527-CD16-4A6E-B432-760A2E45649C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{F1766B57-2F12-4CF1-95C1-EF33487A9B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointFigure", "PointFigure\PointFigure.csproj", "{DEF5D0A6-38FA-4900-86F1-B19B7184E818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1736B28F-A298-47BB-80BF-7B95326C9483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{C9B34527-CD16-4A6E-B432-760A2E45649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B34527-CD16-4A6E-B432-760A2E45649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B34527-CD16-4A6E-B432-760A2E45649C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1766B57-2F12-4CF1-95C1-EF33487A9B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1766B57-2F12-4CF1-95C1-EF33487A9B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1766B57-2F12-4CF1-95C1-EF33487A9B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1766B57-2F12-4CF1-95C1-EF33487A9B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF5D0A6-38FA-4900-86F1-B19B7184E818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF5D0A6-38FA-4900-86F1-B19B7184E818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF5D0A6-38FA-4900-86F1-B19B7184E818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF5D0A6-38FA-4900-86F1-B19B7184E818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1736B28F-A298-47BB-80BF-7B95326C9483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1736B28F-A298-47BB-80BF-7B95326C9483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1736B28F-A298-47BB-80BF-7B95326C9483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1736B28F-A298-47BB-80BF-7B95326C9483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
