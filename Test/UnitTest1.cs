@@ -16,4 +16,17 @@ public class UnitTest1
         Assert.AreEqual(0, t2.Area);
         Assert.AreEqual(0, t2.Perimeter);
     }
+
+    [TestMethod]
+    public void Figure()
+    {
+        Point p1 = new(5, 6);
+        Point p2 = new(8, 10);
+        Point p3 = new(10, 12);
+
+        Figure f = new(p1, p2, p3);
+        double res = 0;
+        f.PerimeterCalculator(out res);
+        Assert.AreEqual(15, (int)res);
+    }
 }
